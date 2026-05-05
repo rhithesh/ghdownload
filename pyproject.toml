@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghdownload"
+version = "0.1.0"
+description = "A command-line tool to interactively download and zip GitHub repositories."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "PyGithub",
+    "questionary",
+    "requests",
+    "rich"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rhithesh/ghdownload"
+
+[project.scripts]
+ghdownload = "ghdownload.cli:main"
