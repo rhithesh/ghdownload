@@ -5,6 +5,12 @@ import { signal } from 'https://esm.sh/@preact/signals@1.2.2?deps=preact@10.19.6
 const html = htm.bind(h);
 
 const app = html`
+<div style="
+  display: flex;
+  justify-content: center;
+">
+
+<div >
   <h1>ghdownload</h1>
 
   <div class="card" style="padding: 2rem;">
@@ -27,6 +33,8 @@ const app = html`
     <p style="margin-top: 2rem; font-size: 0.9em; color: #666;">
       Creator: <a href="mailto:rhithesh1947@gmail.com">rhithesh1947@gmail.com</a>
     </p>
+  </div>
+  </div>
   </div>
 `;
 
