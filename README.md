@@ -1,14 +1,11 @@
 # ghdownload
 
-
-
- [https://rhithesh.github.io/ghdownload/](website)
- [https://pypi.org/project/gh-download-cli/](pypi)
+- Website: https://rhithesh.github.io/ghdownload/
+- PyPI: https://pypi.org/project/gh-download-cli/
 
 ## Resetting Your Token
 
-In case you want to reset your token, run the below command and then run `ghdownload`. It should prompt you for a token:
+If you want to reset your saved GitHub token, run:
 
 ```bash
 rm ~/.ghdownloadertoken
-```
