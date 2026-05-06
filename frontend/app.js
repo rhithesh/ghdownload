@@ -17,7 +17,7 @@ const app = html`
     <p>A cli cmnd to download your github repo</p>
     <div style="margin-top: 2rem;">
       <p>To install, run the following command:</p>
-      <pre style="background: #f4f4f4; padding: 1rem; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; overflow-x: auto;"><code>pip install ghdownload</code>
+      <pre style="background: #f4f4f4; padding: 1rem; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; overflow-x: auto;"><code>pip install gh-download-cli</code>
         <button aria-label="Copy to clipboard" onclick=${(e) => { e.preventDefault(); navigator.clipboard.writeText('pip install ghdownload'); }} style="background: transparent; border: none; outline: none; cursor: pointer; padding: 0.4rem; display: flex; align-items: center; color: inherit;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
