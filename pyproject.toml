@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ghdownload"
+name = "gh-download-cli"
 version = "0.1.0"
 description = "A command-line tool to interactively download and zip GitHub repositories."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name="Your Name", email="your.email@example.com" },
+  { name="Hithesh", email="rhithesh1947@gmail.com" },
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -28,3 +28,6 @@ dependencies = [
 
 [project.scripts]
 ghdownload = "ghdownload.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ghdownload*"]
