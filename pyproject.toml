@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gh-download-cli"
-version = "0.1.1"
+version = "0.1.2"
 description = "A command-line tool to interactively download and zip GitHub repositories."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -20,7 +20,8 @@ dependencies = [
     "PyGithub",
     "questionary",
     "requests",
-    "rich"
+    "rich",
+    "InquirerPy"
 ]
 
 [project.urls]
