@@ -1,10 +1,14 @@
 # ghdownload
 In your environment <br>
-bash```pip install gh-download-cli```
+```bash
+pip install gh-download-cli
+```
 <br>
 to start <br>
 
-bash```ghdownload```
+```bash
+ghdownload
+```
 
 
 - Website: https://rhithesh.github.io/ghdownload/
